@@ -7,7 +7,7 @@ const cfg: AuthProviderProps = {
   authority: import.meta.env.VITE_ZITADEL_DOMAIN,
   client_id: import.meta.env.VITE_ZITADEL_CLIENT_ID,
   redirect_uri: import.meta.env.VITE_ZITADEL_CALLBACK_URL,
-  post_logout_redirect_uri: import.meta.env.VITE_POST_LOGOUT_URL,
+  post_logout_redirect_uri: import.meta.env.VITE_ZITADEL_POST_LOGOUT_URL,
   scope: ZITADEL_SCOPES,
   loadUserInfo: true,
   onSigninCallback: () => {
@@ -17,7 +17,9 @@ const cfg: AuthProviderProps = {
       document.title,
       window.location.origin + '/',
     );
-    window.location.assign(import.meta.env.VITE_POST_LOGIN_URL || '/profile');
+    window.location.assign(
+      import.meta.env.VITE_ZITADEL_POST_LOGIN_URL || '/profile',
+    );
   },
 };
 
