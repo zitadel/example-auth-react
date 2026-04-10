@@ -65,7 +65,7 @@ VITE_ZITADEL_POST_LOGOUT_URL="http://localhost:3000/"
 
 # URL where users are redirected after successful login. This is typically
 # your profile or dashboard page.
-VITE_POST_LOGIN_URL="/profile"
+VITE_ZITADEL_POST_LOGIN_URL="/profile"
 ```
 
 ### Installation and Running
