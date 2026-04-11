@@ -1,3 +1,4 @@
 module.exports = {
-  ignore: ['env.d.ts'],
+  ignoreDependencies: ['@commitlint/config-conventional'],
+  ignore: ['commitlint.config.js', 'env.d.ts'],
 };
