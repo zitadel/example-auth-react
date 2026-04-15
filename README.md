@@ -47,7 +47,7 @@ PORT=3000
 
 # Your ZITADEL instance domain URL. Found in your ZITADEL console under
 # instance settings. Include the full https:// URL.
-# Example: https://my-company-abc123.zitadel.cloud
+# Example: https://my-org-a1b2c3.zitadel.cloud
 VITE_ZITADEL_DOMAIN="https://your-zitadel-domain"
 
 # Application Client ID from your ZITADEL application settings. This unique
