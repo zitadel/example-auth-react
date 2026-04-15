@@ -11,7 +11,6 @@ const cfg: AuthProviderProps = {
   scope: ZITADEL_SCOPES,
   loadUserInfo: true,
   onSigninCallback: () => {
-    console.log('onSigninCallback fired');
     window.history.replaceState(
       {},
       document.title,
