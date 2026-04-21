@@ -2,7 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 const testEnv = {
   NODE_ENV: 'test',
-  VITE_PORT: '3000',
+  PORT: '3000',
   VITE_SESSION_SECRET: 'test-session-secret-for-e2e-tests-only',
   VITE_SESSION_DURATION: '3600',
   VITE_ZITADEL_DOMAIN: 'https://test.zitadel.cloud',
