@@ -6,7 +6,7 @@ type HeaderProps = {
 
 export default function HeaderComponent({ isAuthenticated }: HeaderProps) {
   return (
-    <header className="border-b border-gray-200 bg-white" data-is-authenticated>
+    <header className="border-b border-gray-200 bg-white">
       <div className="mx-auto max-w-7xl px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
