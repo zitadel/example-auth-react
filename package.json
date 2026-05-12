@@ -8,13 +8,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "lint": "eslint .",
+    "dev": "vite",
     "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "prepack": "npx tsc --noEmit --skipLibCheck --project tsconfig.app.json",
+    "preview": "vite preview",
+    "start": "vite",
     "test": "playwright test"
   },
   "dependencies": {
