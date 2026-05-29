@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { withAuthenticationRequired } from 'react-oidc-context';
+import { withAuthenticationRequired } from '@zitadel/react-auth';
 import IndexView from '@/views/IndexView';
 import ProfileView from '@/views/ProfileView';
 import CallbackView from '@/views/CallbackView';

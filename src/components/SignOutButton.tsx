@@ -1,4 +1,4 @@
-import { useAuth } from 'react-oidc-context';
+import { useAuth } from '@zitadel/react-auth';
 
 export default function SignOutButton() {
   const auth = useAuth();

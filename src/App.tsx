@@ -1,4 +1,4 @@
-import { AuthProvider, type AuthProviderProps } from 'react-oidc-context';
+import { AuthProvider, type AuthProviderProps } from '@zitadel/react-auth';
 import { ZITADEL_SCOPES } from '@/config/scopes';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import AppRouter from '@/router';
