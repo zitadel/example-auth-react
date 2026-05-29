@@ -1,6 +1,6 @@
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import { useAuth } from 'react-oidc-context';
+import { useAuth } from '@zitadel/react-auth';
 
 export default function ProfileView() {
   const auth = useAuth();
